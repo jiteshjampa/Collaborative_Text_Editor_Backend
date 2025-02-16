@@ -57,7 +57,7 @@ _Server will run on `http://localhost:5000`._
 ## 📌 API Documentation  
 
 ### 🔗 Postman API Documentation  
-📄 **[View Full API Documentation]([https://www.postman.com/your-postman-link](https://imf-gadget.postman.co/workspace/New-Team-Workspace~0cb77262-e5b7-4952-bd34-e3b77ad05fbd/collection/36484787-45c39f3c-5f25-41c3-8876-814f818b591e?action=share&creator=36484787))**  
+📄 **[View Full API Documentation]([https://imf-gadget.postman.co/workspace/New-Team-Workspace~0cb77262-e5b7-4952-bd34-e3b77ad05fbd/collection/36484787-45c39f3c-5f25-41c3-8876-814f818b591e?action=share&creator=36484787])**  
 
 You can use this link to test all API endpoints easily on Postman.  
 
@@ -110,7 +110,7 @@ PATCH /api/docs/:id
 ## 🚀 Deployment  
 
 The backend is **deployed on Render**:  
-🔗 **[Live API Endpoint]([https://your-api-url.onrender.com](https://collaborative-text-editor-backend.onrender.com))**  
+🔗 **[Live API Endpoint]([https://collaborative-text-editor-backend.onrender.com])**  
 
 To deploy manually:  
 ```sh
