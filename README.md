@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 Collaborative Text Editor Backend  
 ![Node.js](https://img.shields.io/badge/Node.js-16+-green?style=flat-square&logo=node.js)  
 ![Express.js](https://img.shields.io/badge/Express.js-⚡-blue?style=flat-square&logo=express)  
