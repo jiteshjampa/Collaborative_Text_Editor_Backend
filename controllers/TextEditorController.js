@@ -36,16 +36,15 @@ const getDocumentById = async (req, res) => {
     res.status(500).json({ error: "Error fetching document" });
   }
 };
-
 const updateDocument = async (req, res) => {
   const { content, Title } = req.body;
-  const { id } = req.params;
+  const TextId = req.params.id; // This is a UUID (string), not an ObjectId
 
   try {
-    const updatedDoc = await TextEditor.findByIdAndUpdate(
-      id,
-      { content, Title },
-      { new: true } // Ensures updatedAt is updated and returned
+    const updatedDoc = await TextEditor.findOneAndUpdate(
+      { TextId }, // Find by TextId instead of _id
+      { content, Title, updatedAt: new Date() },
+      { new: true } // Return the updated document
     );
 
     if (!updatedDoc) {
