@@ -48,7 +48,7 @@ MONGO_URI=your_mongodb_connection_string
 
 ### 4️⃣ Start the Server  
 ```sh
-npm start
+npm start | nodemon index.js
 ```
 _Server will run on `http://localhost:5000`._
 
